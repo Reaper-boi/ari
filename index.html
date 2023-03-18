@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Αριθμομηχανή</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Αριθμομηχανή</h1> 
+    <div class="lineout">
+<div class="output" id="output">
+
+</div>
+    </div> 
+    <div class="Line1">
+        <button class="but" onclick="addInput(7)">7</button>
+        <button class="but" onclick="addInput(8)">8</button>
+        <button class="but" onclick="addInput(9)">9</button>
+        <button class="but" onclick="addInput('*')">*</button>
+    </div>
+    <div class="Line2">
+        <button class="but" onclick="addInput(4)">4</button>
+        <button class="but" onclick="addInput(5)">5</button>
+        <button class="but" onclick="addInput(6)">6</button>
+        <button class="but" onclick="addInput('-')">-</button>
+    </div>
+    <div class="Line3">
+        <Button class="but" onclick="addInput(1)">1</Button>
+        <button class="but" onclick="addInput(2)">2</button>
+        <button class="but" onclick="addInput(3)">3</button>
+        <button class="but" onclick="addInput('+')">+</button>
+    </div>
+    <div class="Line4">
+        <button class="but"onclick="addInput(0)">0</button>
+        <button class="but" onclick="addInput('/')">/</button>
+        <button class="but" onclick="calculate()">=</button>
+        <button class="but" onclick="erase()">c</button>
+    </div>
+    <div class="Line4">
+        <button class="but0" onclick="">delete</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

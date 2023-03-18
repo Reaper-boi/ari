@@ -1,0 +1,90 @@
+body{
+    background-color: azure;
+    background-image: url("moon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1940px;
+    
+}
+
+
+
+
+
+
+h1{
+    text-align: center;
+}
+
+
+
+
+.Line1{
+    text-align: center;
+    
+}
+.Line2{
+    text-align: center;
+    
+}
+.Line3{
+    text-align: center;
+    
+}
+.Line4{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.but0{
+    width: 50px;
+    height: 50px;
+    border: 2px solid purple;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+ 
+.but{
+    width: 50px;
+    height: 50px;
+    border: 2px solid purple;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+.but:hover{
+    opacity:0,4;
+    background-color: purple;
+    color: white;
+}
+
+
+.but0:hover{
+    opacity:0,4;
+    background-color: purple;
+    color: white;
+}
+
+
+
+
+.output{
+    
+    width: 210px;
+    height: 50px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+.lineout{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px
+}
+
